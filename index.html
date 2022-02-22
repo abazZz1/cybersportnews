@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -27,7 +28,7 @@
    <div class="container">
 	  <div class="header_top">
 		<h1>CyberSport</h1>
-		<h2>Esports is a team or individual competition based on video games. It is recognized as an official sport in Kazakhstan and other CIS Countries</h2>
+		<h2>Esports is a team or individual competition based on video games. It is recognized as an official sport in Russia.</h2>
 	  </div>
    </div>
  </div>
@@ -100,41 +101,58 @@
 		  </div>
 	   </div>
 	</div>
-	<div class="grid_3">
-	  <div class="container">
-		 <h3>Popular CyberSport Games</h3>
-		   <div class="about-grids">
-			<div class="col-sm-3 about-grid">
-				<a href="indexCSGO.html" title="name" rel="title2">
-			    <div class="view view-first">
-                  <img src="images/pic8.jpg" class="img-responsive" alt=""/>
-                </div>
-				</a>
-				<h4><a href="indexCSGO.html">CSGO</a></h4>
-				<p>Counter-Strike: Global Offensive is a multiplayer computer game developed by Valve and Hidden Path Entertainment.</p>
-			</div>
-			<div class="col-sm-3 about-grid">
-				<a href="indexDota.html" title="name" rel="title2">
-			    <div class="view view-first">
-                  <img src="images/pic9.jpg" class="img-responsive" alt=""/>
-                </div>
-				</a>
-				<h4><a href="indexDota.html">Dota 2</a></h4>
-				<p>Dota 2 is a computer multiplayer team game in the genre of multiplayer online battle arena, developed by Valve Corporation.</p>
-			</div>
-			<div class="col-sm-3 about-grid">
-				<a href="indexDota.html" title="name" rel="title2">
-			    <div class="view view-first">
-				</a>
-	      </div>
-	   </div>
+	<div class = "reveal">
+		<script>
+		function reveal() {
+var reveals = document.querySelectorAll(".reveal");
+
+for (var i = 0; i < reveals.length; i++) {
+	var windowHeight = window.innerHeight;
+	var elementTop = reveals[i].getBoundingClientRect().top;
+	var elementVisible = 150;
+
+	if (elementTop < windowHeight - elementVisible) {
+		reveals[i].classList.add("active");
+	} else {
+		reveals[i].classList.remove("active");
+	}
+}
+}
+
+window.addEventListener("scroll", reveal);
+		</script>
+		<div class="grid_3 animationpart">
+		  <div class="container">
+			 <h3>Popular CyberSport Games</h3>
+			   <div class="about-grids">
+				<div class="col-sm-6 about-grid">
+					<a href="images/pic8.jpg" title="name" rel="title2">
+				    <div class="view view-first">
+	                  <a href="indexCSGO.html"><img src="https://zikurat.media/wp-content/uploads/2020/06/8c24fb6f5bd097233f2f84273cedff5a.jpg" class="img-responsive" alt=""/></a>
+	                </div>
+					</a>
+					<h4><a href="indexCSGO.html"><font color = bronze>CS:GO</font></a></h4>
+					<p>Counter-Strike: Global Offensive is a multiplayer computer game developed by Valve and Hidden Path Entertainment.</p>
+				</div>
+				<div class="col-sm-6 about-grid">
+					<a href="images/pic9.jpg" title="name" rel="title2">
+				    <div class="view view-first">
+	                  <a href="indexDota.html"><img src="https://s1.1zoom.ru/b5050/969/DOTA_2_Sven_479687_1920x1080.jpg" class="img-responsive" alt=""/></a>
+	                </div>
+					</a>
+					<h4><a href="indexDota.html"><font color = bronze>Dota 2</font></a></h4>
+					<p>Dota 2 is a computer multiplayer team game in the genre of multiplayer online battle arena, developed by Valve Corporation.</p>
+				</div>
+		        <div class="clearfix"> </div>
+		      </div>
+		   </div>
+		</div>
 	</div>
-</div>
     <div class="team">
 		<div class="container">
 			<h3 class="head_2 wow rollIn" data-wow-delay="0.4s">Welcome to our team</h3>
 			<div class="img-wrapper wow slideInLeft" data-wow-delay="0.4s">
-              <a><img src="images/pic6.jpg" class="img-responsive" alt=""/></a>
+              <a ><img src="images/pic6.jpg" class="img-responsive" alt=""/></a>
               <a><img src="images/pic7.jpg" class="img-responsive" alt=""/></a>
               <a><img src="images/pic4.jpg" class="img-responsive" alt=""/></a>
             </div>
@@ -155,7 +173,7 @@
 				<address><img src="images/pic5.png" class="img-responsive" alt=""/></address>
 				<div class="extra-wrap">
 				<i class="fa quote fa-quote-left"></i>
-				<p>Because we are all very keen on Esports and we really like it, so we couldn't choose something else.It is expected that the audience of esports competitions will double every two years (this is a lot and very fast), there will be more and more money in this industry, and most importantly, video games will be more interesting to young people than real sports, because they have more chances to learn how to play them at some professional level. The phenomenal success of the Twitch service is due to the growing interest in esports. In general, if you want to get carried away with what most of the young humanity will be interested in in the near future — start playing Dota 2, League of Legends, StarCraft 2 and other hardcore games. There is only one problem: if you are 24, like me, or more— then it's too late. This future is not for you. The world of esports is entirely created for teenagers.</p>
+				<p>Because we are all very keen on Esports and we really like it, so we couldn't choose something else.It is expected that the audience of esports competitions will double every two years (this is a lot and very fast), there will be more and more money in this industry, and most importantly, video games will be more interesting to young people than real sports, because they have more chances to learn how to play them at some professional level. The phenomenal success of the Twitch service is due to the growing interest in esports. In general, if you want to get carried away with what most of the young humanity will be interested in in the near future — start playing Dota 2, League of Legends, StarCraft 2 and other hardcore games. There is only one problem: if you are 24, like me, or more— then it's too late.</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

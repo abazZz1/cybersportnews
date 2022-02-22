@@ -6,7 +6,7 @@ p {margin: 0;}
 html, body{
    font-family: 'PT Sans Narrow', sans-serif;
    font-size: 100%;
-   background:#fff; 
+   background:#fff;
 }
 body a{
 	transition:0.5s all;
@@ -27,7 +27,7 @@ body a{
 .header_top{
 	padding-top:15em;
 	text-align: center;
-}	
+}
 .header_top h1{
   color: #fff;
   font-size: 4em;
@@ -99,11 +99,11 @@ span.main {
 	transform: rotateY(70deg);
 }
 .top-nav span.menu{
-	display:none;	
+	display:none;
 }
 .top-nav span.menu:before{
 	content:url("../images/menu.png");
-	cursor:pointer;	
+	cursor:pointer;
 	width:100%;
 }
 /*----responsive-menu-start---*/
@@ -341,6 +341,18 @@ address {
 	background:#f1cd69;
     padding:8em 0;
 }
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
 .grid_3 h3{
 	color:#fff;
 	text-transform:uppercase;
@@ -493,10 +505,11 @@ i.blog-icon{
 }
 h1.blog_head{
 	font-size:3em;
+  margin-top: 100px;
 	text-transform: uppercase;
 	color:#000;
 	text-align:center;
-	margin-bottom:1.5em;
+	margin-bottom:100px;
 }
 a.mask {
 	text-decoration: none;

@@ -5,9 +5,9 @@
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <script src="js/jquery-1.11.1.min.js"></script>
-<link href="css/style.css" rel='stylesheet' type='text/css' />
 <script src="https://kit.fontawesome.com/6e3f26b09e.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href= "css/all.min.css">
+<link href="css/style.css" rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
 
 </head>
@@ -67,8 +67,11 @@
 		<div class="container">
 			<h1 class="blog_head">Games</h1>
 		   <div class="blog_grid span2">
-		     <div class="col-md-6 blog_box">
+         <div class = "row">
+		     <div class="blog_box">
+           <div class = col-md-6>
 		        <a href="indexCSGO.html" class="mask"><img src="images/b1.jpg" alt="image" class="img-responsive zoom-img" alt=""/></a>
+          </div>
 		     	<h3><a href="indexCSGO.html">Counter-Strike: Global Offensive</a></h3>
 		     	<div class="links">
 		  		    <ul>
@@ -77,10 +80,12 @@
 		  		    </ul>
 		  		</div>
 		     	<p>Counter-Strike: Global Offensive is a multiplayer computer game developed by Valve and Hidden Path Entertainment. The release of the game for personal computers on Windows and macOS operating systems, as well as Xbox 360 and PlayStation 3 game consoles took place on August 21, 2012.</p>
-		        <a href="indexCSGO.html" class="btn1 btn-8 btn-8c">Read More</a>
+		        <div class = "col-md-6"><a href="indexCSGO.html" class="btn1 btn-8 btn-8c">Read More</a></div>
 		     </div>
-		     <div class="col-md-6 blog_box">
-		        <a href="indexDota.html" class="mask"><img src="images/b2.jpg" alt="image" class="img-responsive zoom-img" alt=""/></a>
+       </div>
+       <div class="row">
+		     <div class="blog_box">
+          <div class="col-md-6">
 		     	<h3><a href="indexDota.html">Dota 2</a></h3>
 		     	<div class="links">
 		  		    <ul>
@@ -89,11 +94,16 @@
 		  		    </ul>
 		  		</div>
 		     	<p>Dota 2 is a computer multiplayer team game in the genre of multiplayer online battle arena, developed by Valve Corporation. The game is a continuation of DotA - a custom modification map for the game Warcraft III: Reign of Chaos and additions to it Warcraft III: The Frozen</p>
-		        <a href="indexDota.html" class="btn1 btn-8 btn-8c">Read More</a>
+            <a href="indexDota.html" class="btn1 btn-8 btn-8c">Read More</a>
+          </div>
+            <div class="col-md-6">
+ 		        <a href="indexDota.html" class="mask"><img src="images/b2.jpg" alt="image" class="img-responsive zoom-img" alt=""/></a>
+           </div>
 		     </div>
+       </div>
 		     <div class="clearfix"> </div>
 		   </div>
-		   </div>
-	   </div>
+		     </div>
+  </div>
 </body>
 </html>
