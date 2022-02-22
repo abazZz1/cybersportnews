@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6a/AegisOfChampions.png/revision/latest/scale-to-width-down/2000?cb=20150710001254">
+  <script src="https://kit.fontawesome.com/6e3f26b09e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href= "css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <title>Dota 2 Cybersport</title>
+  <link rel="stylesheet" href="css/styleDota.css">
+</head>
+<body>
+  <header>
+
+  <nav class="navbar navbar-expand-sm justify-content-center">
+  <span onmousedown="btn.play(1)" onclick="slowScroll('#intro')">DOTA 2 NEWS</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="about">
+    <ul class="navbar-nav ml-auto" style="margin-right:450px;">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" onmousedown="button.play(1)" onclick="slowScroll('#first')">ABOUT Dota 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onmousedown="button.play(1)" onclick="slowScroll('#second')">2021 BEST TEAMS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onmousedown="button.play(1)"  onclick="slowScroll('#third')">2021 BEST PLAYERS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onmousedown="button.play(1)"  onclick="slowScroll('#fourth')">TOP EVENTS WINNERS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" onmousedown="button.play(1)"  onclick="slowScroll('#fifth')">OUR TEAM</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+    <div id="intro">
+    <h1>DOTA 2</h1>
+    <h3>CYBERSPORT NEWS</h3>
+    <div id = "particles-js">
+    </div>
+  </div>
+
+      <div id="first">
+      <div class="jumbotron-fluid">
+  <div class="container-fluid">
+    <h1 class="display-4">About DOTA 2</h1>
+    <p class="lead">Dota 2 is a computer multiplayer team game in the genre of multiplayer online battle arena, developed by Valve Corporation. The game is a continuation of DotA - a custom modification map for the game Warcraft III: Reign of Chaos and additions to it Warcraft III: The Frozen Throne. The game depicts a battle on a special kind of map; each match involves two teams of five players controlling "heroes" - characters with different sets of abilities. To win the match, the team must destroy a special object-a "fortress" belonging to the enemy side, and protect its own "fortress" from destruction. Dota 2 operates on a free-to-play model with elements of micropayments.<br> Every day, millions of players around the world enter into a 5v5 team battle as one of over a hundred heroes. Dota is the deepest multiplayer strategy game of all time, and there's always room for a new strategy or tactic. It's completely free and that won't change - start protecting your Elder now.
+</p>
+  </div>
+</div>
+</div>
+
+
+
+  <div id="second">
+  <div class="container">
+  <h2>2021 BEST TEAMS</h2>
+  <p>According to Dota Pro Circuit</p>
+  <p id = "CurrDate"></p>
+  <table class="table-bordered">
+    <thead>
+      <tr>
+        <th>Logo</th>
+        <th>Rank</th>
+        <th>Team</th>
+        <th>Points</th>
+        <th>Organization Country</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="https://upload.wikimedia.org/wikipedia/de/e/e1/Logo_Evil_Geniuses.png" alt="NAVI" width="45" height="45"></td>
+        <td><font color="gold">#1</font></td>
+        <td><font color="gold">Evil Geniuses</font></td>
+        <td>1700</td>
+        <td>United States of America <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png" class="flag" title="USA" alt = "UA" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://ggscore.com/media/logo/t3.png?41" alt="GAMBIT" width="45" height="45"></td>
+        <td><font color="silver">#2</font></td>
+        <td><font color="silver">PSG.LGD</font></td>
+        <td>1300</td>
+        <td>China <img src = "https://upload.wikimedia.org/wikipedia/commons/2/25/China-flag.png" class="flag" title="China" alt = "RU" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://img-cdn.hltv.org/teamlogo/yZ6Bpuui1rW3jocXQ68XgZ.svg?ixlib=java-2.1.0&s=f39be1d3e7baf30a4e7f0b1216720875" alt="GAMBIT" width="45" height="45"></td>
+        <td><font color="bronze">#3</font></td>
+        <td><font color="bronze">Virtus.pro</font></td>
+        <td>1200</td>
+        <td>Russia <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/640px-Flag_of_Russia.svg.png" class="flag" title="Russia" alt = "FR" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://game-tournaments.com/media/logo/t41121.png?94" alt="VP" width="45" height="45"></td>
+        <td>#4</td>
+        <td>Quincy Crew</td>
+        <td>1100</td>
+        <td>United States of America <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/2560px-Flag_of_the_United_States.svg.png" class="flag" title="USA" alt = "RU" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://cms.geeks.bet/wp-content/uploads/Invictus-Gaming-Esports-Logo.png" alt="G2" width="45" height="45"></td>
+        <td>#5</td>
+        <td>Invictus Gaming</td>
+        <td>1100</td>
+        <td>China <img src = "https://upload.wikimedia.org/wikipedia/commons/2/25/China-flag.png" class="flag" title="China" alt = "SP" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://liquipedia.net/commons/images/e/e4/T1_2019_allmode.png" alt="NIP" width="60" height="35"></td>
+        <td>#6</td>
+        <td>T1</td>
+        <td>1070</td>
+        <td>Philippines <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1200px-Flag_of_the_Philippines.svg.png" class="flag" title="Philippines" alt = "SW" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://liquipedia.net/commons/images/2/24/VICI_Gaming_full_allmode.png" alt="AST" width="40" height="45"></td>
+        <td>#7</td>
+        <td>Vici Gaming</td>
+        <td>950</td>
+        <td>China <img src = "https://upload.wikimedia.org/wikipedia/commons/2/25/China-flag.png" class="flag" title="China" alt = "DM" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://svirtus.cdnvideo.ru/YuhHYfc4OnBlAB6Wuw_IvGgSUgs=/0x0:1137x1137/200x200/filters:quality(100)/https://hb.bizmrg.com/esports-core-media/bc/bca4653a2c5034de65a40c43f8d146b4.png?m=558e0f46cbf21eca508f2be7f6790190" alt="HEROIC" width="45" height="45"></td>
+        <td>#8</td>
+        <td>Team Secret</td>
+        <td>950</td>
+        <td>Europe <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/2560px-Flag_of_Europe.svg.png" class="flag" title="Europe" alt = "DM" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://ggscore.com/media/logo/t25780.png" alt="FAZE" width="45" height="45"></td>
+        <td>#9</td>
+        <td>Team Aster</td>
+        <td>800</td>
+        <td>China <img src = "https://upload.wikimedia.org/wikipedia/commons/2/25/China-flag.png" class="flag" title="China" alt = "DM" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/1/13/Team_icon_Alliance.png/revision/latest/scale-to-width-down/950?cb=20161116005822" alt="ENTROPIQ" width="45" height="45"></td>
+        <td>#10</td>
+        <td>Alliance</td>
+        <td>800</td>
+      <td>Europe <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/2560px-Flag_of_Europe.svg.png" class="flag" title="Europe" alt = "DM" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/l60uvmtov2mcchmfuhbv" alt="OG" width="45" height="45"></td>
+        <td>#11</td>
+        <td>Beastcoast</td>
+        <td>800</td>
+        <td>Peru <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1280px-Flag_of_Peru_%28state%29.svg.png" class="flag" title="Peru" alt = "DM" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://cdn0.gamesports.net/edb_team_sub_logos_light/0/823.png?1644492578" alt="BIG" width="45" height="45"></td>
+        <td>#12</td>
+        <td>Thunder Awaken</td>
+        <td>800</td>
+        <td>Peru <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1280px-Flag_of_Peru_%28state%29.svg.png" class="flag" title="Peru" alt = "DM" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://game-tournaments.com/media/logo/t43398.png?2" alt="GODSENT" width="45" height="45"></td>
+        <td>#13</td>
+        <td>Nigma Galaxy</td>
+        <td>670</td>
+        <td>Europe <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/2560px-Flag_of_Europe.svg.png" class="flag" title="Europe" alt = "DM" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://cdn.escharts.com/uploads/public/5ff/f08/6a7/5fff086a7e0ab869284371.png" alt="K23" width="40" height="45"></td>
+        <td>#14</td>
+        <td>Team Spirit</td>
+        <td>585</td>
+        <td>Russia <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/640px-Flag_of_Russia.svg.png" alt = "KZ" class="flag" title="Russia" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://liquipedia.net/commons/images/e/e6/NoPing_e-sports_2021_allmode.png" alt="FNATIC" width="45" height="45"></td>
+        <td>#15</td>
+        <td>NoPing e-sports</td>
+        <td>585</td>
+        <td>Peru <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1280px-Flag_of_Peru_%28state%29.svg.png" class="flag" title="Peru" alt = "DM" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://liquipedia.net/commons/images/1/1c/TNC_Predator_2021_allmode.png" alt="FURIA" width="45" height="45"></td>
+        <td>#16</td>
+        <td>TNC Predator</td>
+        <td>572.25</td>
+        <td>Philippines <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1200px-Flag_of_the_Philippines.svg.png" class="flag" title="Philippines" alt = "SW" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://liquipedia.net/commons/images/3/30/OB_Esports_x_Neon_lightmode_full.png" alt="ECSTATIC" width="45" height="45"></td>
+        <td>#17</td>
+        <td>Neon Esports</td>
+        <td>552.5</td>
+        <td>Philippines <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/1200px-Flag_of_the_Philippines.svg.png" class="flag" title="Philippines" alt = "SW" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://liquipedia.net/commons/images/9/96/Fnatic_2020_infoboximage.png" alt="CPH" width="50" height="40"></td>
+        <td>#18</td>
+        <td>Fnatic</td>
+        <td>446.25</td>
+        <td>Sweden <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Sweden.svg/1200px-Flag_of_Sweden.svg.png" alt = "DM" class="flag" title="Sweden" width="45" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://www.pikpng.com/pngl/b/139-1393672_vs-team-liquid-logo-3d-clipart.png" alt="HEET" width="45" height="45"></td>
+        <td>#19</td>
+        <td>Team Liquid</td>
+        <td>400</td>
+        <td>Netherlands <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/2560px-Flag_of_the_Netherlands.svg.png" alt = "FR" width="45" class="flag" title="Netherlands" height="25"></td>
+      </tr>
+      <tr>
+        <td><img src="https://liquipedia.net/commons/images/4/46/Team_Undying_allmode.png" alt="COMPLEXITY" width="45" height="40"></td>
+        <td>#20</td>
+        <td>Undying</td>
+        <td>400</td>
+        <td>Peru <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1280px-Flag_of_Peru_%28state%29.svg.png" class="flag" title="Peru" alt = "DM" width="45" height="25"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+
+  <div id="third">
+    <h6>2021 BEST PLAYERS</h6>
+    <p>According to Dota Pro Circuit</p>
+    <p id = "CurrDate1"></p>
+                    <p class="news-block">
+                      1. <img alt="Ukraine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/2560px-Flag_of_Ukraine.svg.png" class="flag" title="Ukraine" width="50" height = "30"> Illya <a href="#popupSimple" class="popup-link"><font color = "gold">“Yatoro”</font></a> Mulyarchuk
+                      <br>2. <img src = "https://upload.wikimedia.org/wikipedia/commons/2/25/China-flag.png" class="flag" title="China" alt = "DM" width="50" height="30"> Zhao <a href="#popupZywoo" class="popup-link" ><font color = "silver">"&NoBreak;XinQ&NoBreak;"</font></a> Zixing
+                      <br>3. <img alt="Estonia" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/2560px-Flag_of_Estonia.svg.png" class="flag" title="Estonia" width="50" height = "30"> Clement <a href="#popupNiko" class="popup-link"><font color ="bronze">“Puppey”</font></a> Ivanov
+                      <br>4. <img src = "https://upload.wikimedia.org/wikipedia/commons/2/25/China-flag.png" class="flag" title="China" alt = "DM" width="50" height="30"> Jin <a href="#popupShiro">“flyfly”</a> Zhiyi
+                      <br>5. <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/1200px-Flag_of_Australia_%28converted%29.svg.png" class="flag" title="Australia" alt = "DM" width="50" height="30"> Anathan <a href="#popupAxile" class="popup-link" >"&NoBreak;ana&NoBreak;"</a> Pham
+                      <br>6. <img alt="Russia" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/640px-Flag_of_Russia.svg.png" class="flag" title="Russia" width="50" height = "30"> Magomed <a href="#popupHobbit" class="popup-link" rel="nofollow noreferrer">"Collapse"</a> Khalilov
+                      <br>7. <img src = "https://upload.wikimedia.org/wikipedia/commons/2/25/China-flag.png" class="flag" title="China" alt = "DM" width="50" height="30"> Wang <a href="#popupElectronic" class="popup-link" rel="nofollow noreferrer">"Ame"</a> Chunyu
+                      <br>8. <img alt="Ukraine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/2560px-Flag_of_Ukraine.svg.png" class="flag" title="Ukraine" width="50" height = "30"> Alexander <a href="#popupYekindar" class="popup-link" rel="nofollow noreferrer">"TORONTOTOKYO"</a> Khertek
+                      <br>9. <img alt="Poland" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/1200px-Flag_of_Poland.svg.png" class="flag" title="Poland" width="50" height = "30"> Michał <a href="#popupBit" class="popup-link" rel="nofollow noreferrer">"&NoBreak;Nisha&NoBreak;"</a> Jankowski
+                      <br>10. <img alt="Finland" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Finland.svg" class="flag" title="Finland" width="50" height = "30">  Topias <a href="#popupJame" class="popup-link" rel="nofollow noreferrer">"&NoBreak;Topson&NoBreak;"</a> Taavitsainen
+                      <br>11. <img alt="Pakistan" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/1200px-Flag_of_Pakistan.svg.png" class="flag" title="Pakistan" width="50" height = "30"> Sumail <a href="#popupDevice" class="popup-link" rel="nofollow noreferrer">"SumaiL"</a> Hassan
+                      <br>12. <img alt="Jordan" src="https://cdn.pixabay.com/photo/2013/07/13/14/15/jordan-162330__480.png" class="flag" title="Jordan" width="50" height = "30"> Amer <a href="#popupHunter" class="popup-link" rel="nofollow noreferrer">"Miracle-"</a> Al-Barkawi
+                      <br>13. <img alt="Ukraine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/2560px-Flag_of_Ukraine.svg.png" class="flag" title="Ukraine" width="50" height = "30"> Miroslaw <a href="#popupBlameF" class="popup-link" rel="nofollow noreferrer">"Mira"</a> Kolpakov
+                      <br>14. <img src = "https://upload.wikimedia.org/wikipedia/commons/2/25/China-flag.png" class="flag" title="China" alt = "DM" width="50" height="30"> Cheng <a href="#popupNaf" class="popup-link" rel="nofollow noreferrer">"NothingToSay"</a> Jin Xiang
+                      <br>15. <img alt="Jordan" src="https://cdn.pixabay.com/photo/2013/07/13/14/15/jordan-162330__480.png" class="flag" title="Jordan" width="50" height = "30"> Yazied <a href="#popupKscerato" class="popup-link" rel="nofollow noreferrer">"YapzOr"</a> Jaradat
+                      <br>16. <img alt="Denmark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1280px-Flag_of_Denmark.svg.png" class="flag" title="Denmark" width="50" height = "30"> Johan <a href="#popupStavn" class="popup-link" rel="nofollow noreferrer">"N0tail"</a> Sundstein
+                      <br>17. <img src = "https://upload.wikimedia.org/wikipedia/commons/2/25/China-flag.png" class="flag" title="China" alt = "DM" width="50" height="30">  Xu <a href="#popupTwistzz" class="popup-link" rel="nofollow noreferrer">"fy"</a> Linsen
+                      <br>18. <img alt="Russia" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/640px-Flag_of_Russia.svg.png" class="flag" title="Russia" width="50" height = "30"> Egor <a href="#popupRopz" class="popup-link" rel="nofollow noreferrer">"Nightfall"</a> Grigorenko
+                      <br>19. <img alt="Russia" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/640px-Flag_of_Russia.svg.png" class="flag" title="Russia" width="50" height = "30">  Danil <a href="#popupElige" rel="nofollow noreferrer">"&NoBreak;gpk&NoBreak;"</a> Skutin
+                      <br>20. <img alt="Ukraine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/2560px-Flag_of_Ukraine.svg.png" class="flag" title="Ukraine" width="50" height = "30"> Danil <a href="#popupBroky" rel="nofollow noreferrer">"Dendi"</a> Ishutin</p>
+</div>
+
+  <div id="fourth">
+    <h1>TOP EVENTS WINNERS</h1>
+    <h2>ALL THE INTERNATIONAL CHAMPIONS</h2>
+    <div class="img">
+      <img id="myImg" src="https://cdn.tribuna.com/fetch/?url=https%3A%2F%2Fi.sprts.ru%2Fpreset%2Fwysiwyg%2F7%2F7a%2Fd45fa203211ec8979d319ce6e28e6.jpeg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2011<span>
+          <p><font size="20" color="gold">Natus Vincere</font></p>
+    </div>
+    <div class="img">
+      <img id="myImg1" src="https://cdn.tribuna.com/fetch/?url=https%3A%2F%2Fi.sprts.ru%2Fpreset%2Fwysiwyg%2Ff%2F11%2F876ca203311eca19afec10feb849e.jpeg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2012<span>
+        <ol>
+          <p><font size="20" color="gold">Invictus Gaming</font></p>
+        </ol>
+    </div>
+
+    <div class="img">
+      <img id = "myImg2" src="https://cdn.tribuna.com/fetch/?url=https%3A%2F%2Fi.sprts.ru%2Fpreset%2Fwysiwyg%2F8%2Fe7%2Fdcce2203611eca19afec10feb849e.jpeg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2013<span>
+        <ol>
+          <p><font size="20" color="gold">Alliance</font></p>
+        </ol>
+    </div>
+    <div class="img">
+      <img id = "myImg3" src="https://cdn.tribuna.com/fetch/?url=https%3A%2F%2Fi.sprts.ru%2Fpreset%2Fwysiwyg%2F9%2F4b%2F1f5de203611ec8c80d319ce6e28e6.jpeg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2014<span>
+        <ol>
+          <p><font size="20" color="gold">Newbee</font></p>
+        </ol>
+    </div>
+    <div class="img">
+      <img id = "myImg4" src="https://cdn.tribuna.com/fetch/?url=https%3A%2F%2Fi.sprts.ru%2Fpreset%2Fwysiwyg%2Fe%2Fe9%2F4d3b4203611eca19afec10feb849e.jpeg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2015<span>
+        <ol>
+          <p><font size="20" color="gold">Evil Geniuses</font></p>
+        </ol>
+    </div>
+    <div class="img">
+      <img id = "myImg5" src="https://cdn.tribuna.com/fetch/?url=https%3A%2F%2Fi.sprts.ru%2Fpreset%2Fwysiwyg%2F2%2F77%2Ff8d94203811eca19afec10feb849e.jpeg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2016<span>
+        <ol>
+          <p><font size="20" color="gold">Wings Gaming</font></p>
+        </ol>
+    </div>
+    <div class="img">
+      <img id = "myImg6" src="https://cdn.tribuna.com/fetch/?url=https%3A%2F%2Fi.sprts.ru%2Fpreset%2Fwysiwyg%2Ff%2F82%2F88b58203811eca9f2fa4336ec32c0.jpeg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2017<span>
+        <ol>
+          <p><font size="20" color="gold">Team Liquid</font></p>
+        </ol>
+    </div>
+    <div class="img">
+      <img id = "myImg7" src="https://cdn.tribuna.com/fetch/?url=https%3A%2F%2Fi.sprts.ru%2Fpreset%2Fwysiwyg%2F9%2Ff9%2Ff66d0203a11ecaf0efa4336ec32c0.jpeg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2018<span>
+        <ol>
+          <p><font size="20" color="gold">OG</font></p>
+        </ol>
+    </div>
+    <div class="img">
+      <img id = "myImg8" src="https://cdn.tribuna.com/fetch/?url=https%3A%2F%2Fi.sprts.ru%2Fpreset%2Fwysiwyg%2Ff%2F2e%2Fed64a203a11ecaf0efa4336ec32c0.jpeg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2019<span>
+        <ol>
+          <p><font size="20" color="gold"> OG</font></p>
+        </ol>
+    </div>
+    <div class="img">
+      <img id = "myImg9" src="https://s5o.ru/storage/simple/cyber/edt/5e/89/d9/b2/cybere1206a095b0.jpg" alt="" style="width:100%;max-width:500px">
+      <span>THE INTERNATIONAL 2021<span>
+        <ol>
+          <p><font size="20" color="gold">Team Spirit</font></p>
+        </ol>
+    </div>
+  <div class="img">
+      <img id = "myImg10" src="https://static.rctiplus.id/media/800/files/fta_rcti/news/1045314.jpg" alt="" style="width:100%;max-width:500px">
+      <span>ONE Esports Singapore Major 2021<span>
+        <ol>
+          <p><font size="20" color="gold">Invictus Gaming</font></p>
+        </ol>
+    </div>
+    <div class="img">
+      <img id = "myImg11" src="https://cdn.realsport101.com/images/ncavvykf/gfinityesports/2e16d7e9291d3345352b105e36cb09173618e257-2048x1365.jpg?rect=0,106,2048,1153&amp;w=700&amp;h=394" alt="" style="width:100%;max-width:500px">
+      <span>WePlay AniMajor 2021<span>
+        <ol>
+          <p><font size="20" color="gold">PSG.LGD</font></p>
+        </ol>
+      </div>
+    </div>
+    <div id="fifth">
+        <h1>OUR TEAM</h1>
+          <font face= "Raleway"> <ul class="list-group list-group-flush">
+  <li class="list-group-item"><font face = "Bebas Neue" size ="6.5"> Abdurakhim Bakytzhan </font> <li> <i class="fa-brands fa-telegram"></i> Telegram | @abdu00001</li>
+  <li> <i class="fa-solid fa-envelope"></i> Email | bakytzhanabdurakhim@mail.ru</li>
+  <li> <i class="fa-brands fa-discord"></i> Discord | Abdu#4761 </li></li>
+  <li class="list-group-item"><font face = "Bebas Neue" size ="6.5">Nursultan Tynyshbai</font> <li> <i class="fa-brands fa-telegram"></i> Telegram | @Just_Tnnl</li>
+  <li> <i class="fa-solid fa-envelope"></i> Email | nursultantynyshbai@gmail.com</li>
+  <li> <i class="fa-brands fa-discord"></i> Discord | TnnL(Nursultan)#3986</li> </li>
+  <li class="list-group-item"><font face = "Bebas Neue" size ="6.5">Asylzhan Zhusip</font> <li> <i class="fa-brands fa-telegram"></i> Telegram | @sablovhf</li>
+  <li> <i class="fa-solid fa-envelope"></i> Email | asylzhanzhusip@gmail.com</li>
+  <li> <i class="fa-brands fa-discord"></i> Discord | sablovhf#3811 </li></li>
+</ul></font>
+    <div class="footer-copyright text-center py-3"><font face= "Barlow"><i class="fa-solid fa-copyright"></i> 2021 Copyright:
+    <a href="index.html"> CyberSport.news</a></font>
+    </div>
+    <!-- Copyright -->
+    <!-- Footer -->
+    </div>
+
+</body>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+<!-- The Cursor -->
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
+<div id= "popupSimple" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img ">
+          <img class="popimg" src="https://gosu.ai/blog/content/images/2021/11/Yatoro_full.png" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id= "popupZywoo" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://pbs.twimg.com/media/E5mGuXBVEAE1v0w.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id= "popupNiko" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://static.wikia.nocookie.net/dota2_gamepedia/images/3/30/Team_Secret_PUPPEY.jpg/revision/latest?cb=20211016084522" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id= "popupShiro" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://liquipedia.net/commons/images/2/2d/Flyfly-Dreamleague13.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id= "popupAxile" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://svirtus.cdnvideo.ru/v9EFUqzls_TOHW3ib0S0m2kNcDA=/0x0:1024x576/1200x1200/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/af/afc7e3576b6afb887f36240c0c43f1c4.jpg?m=c6ddf63cd3ee43fb38b71d49f5a8eba5" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id= "popupHobbit" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://pbs.twimg.com/media/FB7qLgIXEAUDQ2j.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id= "popupElectronic" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://gameinside.ua/wp-content/uploads/2020/09/e131ac2f0e0a0dee54db10556d00e100.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id= "popupYekindar" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://svirtus.cdnvideo.ru/GLyu4YfrVZa9cruxzBD2-Ol4VTM=/0x0:1080x607/1200x1200/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/0e/0ec1bcae4b5f4770edbafa5d212ea249.jpg?m=fe9c5c95f64863daf37e44244e3d0c9a" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id= "popupBit" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://cyber.pressball.by/wp-content/uploads/2020/12/nisha.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+<div id= "popupJame" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://cyber.pressball.by/wp-content/uploads/2020/10/newaegis_pp_topson.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupDevice" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://upload.wikimedia.org/wikipedia/commons/1/10/EG.SumaiL_%2832945940994%29_%28cropped%29.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupHunter" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://gameinside.ua/wp-content/uploads/2017/10/Miracle-.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupBlameF" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://s5o.ru/storage/simple/cyber/edt/07/bf/a5/7e/cybere105da13361.png" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupNaf" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://svirtus.cdnvideo.ru/pRIhUT6_XJG2MJQOs5pv0UMjxE8=/0x0:1366x768/1200x1200/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/1c/1c400590d1f5bc034a340e2db203c43a.jpg?m=cb59cb9253e476b3a4d58a6ab4c56764" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupKscerato" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://svirtus.cdnvideo.ru/KrNlbKqsD7Ie36aY61-877qKLBU=/0x0:2021x2005/800x0/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/7f/7f772c711ec2ba8ab1176b29b2b71497.png?m=420b873a9b8f16ddc64b591aafeebc7b" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupStavn" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://game-tournaments.com/media/news/n20072.jpeg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupTwistzz" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://svirtus.cdnvideo.ru/I6jnUYnpyhVmB4MnTpjuuIHUDvg=/0x0:750x450/1200x1200/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/ea/eac96ed65519d5d171508a2741cfd492.jpg?m=a8404c201c1889b4a69222de63b6e96f" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupRopz" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://svirtus.cdnvideo.ru/0HQ6RnyKJ2h6haGSPsyMH6YpHeA=/0x0:719x719/800x0/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/e3/e396a89599444b2f6ac38c60eaea2b1a.jpg?m=37e8839320245ef96ba20e6b4f928904" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupElige" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="http://gameinside.ua/wp-content/uploads/2020/07/gpk-SL.jpg" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div id= "popupBroky" class="popup">
+  <a href="#about" class="popup__Area"></a>
+  <div class="popup__body">
+    <div class="popup__content">
+        <div class="popup_img">
+          <img class="popimg" src="https://svirtus.cdnvideo.ru/S6AjDEN6VEU7n1ehHjZlg4k0ht4=/0x0:1280x720/1200x1200/filters:quality(100)/https://hb.bizmrg.com/cybersportru-media/0a/0acb7de1a869e43b92e1e6ebca927835.jpg?m=a5ce92d576e8fa459413cb7532fc8828" alt="">
+        </div>
+    </div>
+  </div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/tone/0.8.0/Tone.min.js'></script>
+<script src = "js/mouseparticles.js"></script>
+    <script src = "js/indexCSGO.js"></script>
+    <script type = "text/javascript" src = "js/particles.js"></script>
+    <script type = "text/javascript" src = "js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      function slowScroll(id) {
+        $('html, body').animate({
+          scrollTop: $(id).offset().top
+        }, 500);
+      }
+
+      $(document).on("scroll", function() {
+        if($(window).scrollTop() === 0)
+          $("header").removeClass("fixed");
+        else
+          $("header").attr("class", "fixed");
+      });
+    </script>
+
+</html>
